@@ -1,3 +1,4 @@
+![boat](https://user-images.githubusercontent.com/90718732/136070106-d3728f3f-570c-4491-b069-7d83bd6e54d3.JPG)
 # Boat-AI
 
 This project was my adventure into AI. I started off by creating a simple boat driving game using only a graphics library (Pygame).
