@@ -1,4 +1,3 @@
-![boat](https://user-images.githubusercontent.com/90718732/136070106-d3728f3f-570c-4491-b069-7d83bd6e54d3.JPG)
 # Boat-AI
 
 This project was my adventure into AI. I started off by creating a simple boat driving game using only a graphics library (Pygame).
@@ -12,6 +11,8 @@ Each boat in the generation has a set of rays that tells the boat a set of dista
 to go straight, turn left or right. 
 
 If you want to test it out for yourself, download the repo, install the necessary packages (NEAT and pygame), and then run main.py to start.
+
+![boat2](https://user-images.githubusercontent.com/90718732/136070289-30651fa4-559a-4e96-8463-f17b261a2b04.JPG)
 
 # TO-DO
   - Add new courses or let a user create their own course
