@@ -1,0 +1,24 @@
+import cProfile
+import pstats
+
+class Profiler:
+
+    def __init__(self):
+        self.is_running = False
+        self.pr = cProfile.Profile(builtins=False)
+
+    def toggle(self):
+        self.is_running = not self.is_running
+
+        if not self.is_running:
+            self.pr.disable()
+
+            ps = pstats.Stats(self.pr)
+            ps.strip_dirs()
+            ps.sort_stats('cumulative')
+            ps.print_stats(35)
+
+        else:
+            print("Started profiling...")
+            self.pr.clear()
+            self.pr.enable()
