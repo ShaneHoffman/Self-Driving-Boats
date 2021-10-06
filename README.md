@@ -1,4 +1,4 @@
-# Boat-AI
+# Boat AI
 
 This project was my adventure into AI. I started off by creating a simple boat driving game using only a graphics library (Pygame).
 The physics were written by me with the help of this resource: https://github.com/maximryzhov/pygame-car-tutorial/blob/master/game.py.
